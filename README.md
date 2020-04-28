@@ -16,5 +16,14 @@ yarn add nodemon -D
 Criar arquivos: index.js e routes.js
 
 Configurando upload:
-Upload para a própria pasta do projeto
+
+Fazendo upload localmente:
 Criar arquivo: config/multer.js
+Feito configurações e commit
+
+Salvando no banco de dados mongoDB:
+Criar arquivo models/Post.js
+Ajustar dados no index e routes
+
+Fazendo upload para amazon S3:
+
