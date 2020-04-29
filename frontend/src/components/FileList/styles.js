@@ -7,12 +7,12 @@ export const Container = styled.ul`
         display: flex;
         justify-content: space-between;
         align-items: center;
-        color: #444
-    }
-
-    /* Aplicando somente a partir da segunda li */
-    & + li {
-        margin-top: 15px;
+        color: #444;
+        
+        /* Aplicando somente a partir da segunda li */
+        & + li {
+            margin-top: 15px;
+        }
     }
 `;
 

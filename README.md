@@ -80,3 +80,19 @@ Pacote auxilia no upload, seria a caixa onde vamos arrastar os arquivos:
 yarn add react-dropzone
 ```
 
+Barra de progresso e icones:
+```
+yarn add react-circular-progressbar
+
+yarn add react-icons
+```
+
+Fornece funções para manipular arrays e objetos:
+```
+yarn add lodash
+```
+
+Controla e fazer a nomenclatura do tamanho do arquivo, exemplo: kb, mb...
+```
+yarn add filesize
+```
