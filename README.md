@@ -52,3 +52,31 @@ yarn add dotenv
 <br>- GET: Lista de todos os posts
 <br>- POST: Cadastrando arquivo local ou s3
 <br>- DELETE: Deletando arquivo local ou s3
+
+---
+
+**Front-end: ReactJS**
+
+Iniciando aplicação:
+```
+create-react-app frontend
+```
+
+**Funcionalidades:**
+<br>- Fazer upload dos arquivos
+<br>- Montar barra de progresso
+<br>- Mostrar quando os arquivos terminam de fazer upload
+<br>- Se deu sucesso se não deu
+<br>- url para o usuario acessar
+<br>- Botão de excluir
+
+Pacote para estilização:
+```
+yarn add styled-components
+```
+
+Pacote auxilia no upload, seria a caixa onde vamos arrastar os arquivos:
+```
+yarn add react-dropzone
+```
+
