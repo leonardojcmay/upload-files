@@ -1,5 +1,8 @@
 # **Upload de arquivos**
 
+## WEB:
+![1-web](https://github.com/leonardojcmay/upload-files/blob/master/imagens/2%20-%20Layout%20Web.png?raw=true "1-web")
+
 **Back-end: NodeJS**
 
 Iniciando aplicação:
@@ -97,7 +100,7 @@ Fornece funções para manipular arrays e objetos:
 yarn add lodash
 ```
 
-Controla e fazer a nomenclatura do tamanho do arquivo, exemplo: kb, mb...
+Controla e faz a nomenclatura do tamanho do arquivo, exemplo: kb, mb...
 ```
 yarn add filesize
 ```
