@@ -15,20 +15,24 @@ export const DropContainer = styled.div.attrs({
     border: 1px dashed #ddd;
     border-radius: 4px;
     cursor: pointer;
-    
+  
     transition: height 0.2s ease;
-
-    /*Se estiver utilizando o dragActive e passando por cima da zone, informando para ficar verde */
+  
     ${props => props.isDragActive && dragActive};
-    /*Se estiver utilizando o dragReject e passando por cima da zone, informando para ficar vermelho */
     ${props => props.isDragReject && dragReject};
+    
 `;
+
+//     /*Se estiver utilizando o dragActive e passando por cima da zone, informando para ficar verde */
+//     ${props => props.isDragActive && dragActive};
+//     /*Se estiver utilizando o dragReject e passando por cima da zone, informando para ficar vermelho */
+//     ${props => props.isDragReject && dragReject};
 
 const messageColors = {
     default: '#999',
     error: '#e57878',
     success: '#78e5d5',
-}
+};
 
 export const UploadMessage = styled.p`
     display: flex;

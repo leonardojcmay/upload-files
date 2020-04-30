@@ -4,6 +4,7 @@ const express = require("express");
 const morgan = require("morgan");
 const mongoose = require("mongoose"); // Banco de dados mongoDb: manipulando os dados
 const path = require("path") // utilizando para poder acessar pasta onde é salva as imagens localmente
+const cors = require("cors") // utilizado para se comunicar com o front-end. Liberando acesso para que todos os dominios possam fazer requisições
 
 const app = express();
 
@@ -13,6 +14,7 @@ mongoose.connect('mongodb://localhost:27017/upload', {
     useUnifiedTopology: true
 });
 
+app.use(cors());
 app.use(express.json()); // fazendo com que o express consiga lidar com json
 app.use(express.urlencoded({ extended: true })); // fazendo com que o express consiga lidar com requisiçoes url encoded, facilita na parte de envio de arquivos
 app.use(morgan('dev')); // lib de log

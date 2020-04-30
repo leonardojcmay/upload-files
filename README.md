@@ -48,6 +48,11 @@ Ajustado informações no arquivo .env
 yarn add dotenv
 ```
 
+**cors:** utilizado para comunicação com o front-end. Liberando acesso para que todos os dominios possam fazer requisições
+```
+yarn add cors
+```
+
 **Funcionalidades:**
 <br>- GET: Lista de todos os posts
 <br>- POST: Cadastrando arquivo local ou s3
@@ -95,4 +100,9 @@ yarn add lodash
 Controla e fazer a nomenclatura do tamanho do arquivo, exemplo: kb, mb...
 ```
 yarn add filesize
+```
+
+Serve para comunicação com o back-end:
+```
+yarn add axios
 ```

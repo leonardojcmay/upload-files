@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 // importando as estilizações padrões que vem no Progressbar caso seja utilizado em outra tela/componente
-import 'react-circular-progressbar/dist/styles.css';
+import "react-circular-progressbar/dist/styles.css";
 
 export default createGlobalStyle`
     /* Para todos o componentes da tela */
@@ -14,7 +14,7 @@ export default createGlobalStyle`
     body {
         font-family: Arial, Helvetica, sans-serif, Arial, Helvetica, sans-serif;
         font-size: 14px;
-        background: #7159c1;
+        background: #312E38;
         text-rendering: optimizeLegibility;
         -webkit-font-smoothing: antialiased;
     }
